@@ -1,0 +1,19 @@
+{
+  "name": "cv-documents-api",
+  "version": "1.0.0",
+  "description": "Серверная часть проекта распознования документов",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stepanLomkov/cv-documents-api.git"
+  },
+  "author": "Stepan Lomkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stepanLomkov/cv-documents-api/issues"
+  },
+  "homepage": "https://github.com/stepanLomkov/cv-documents-api#readme"
+}
