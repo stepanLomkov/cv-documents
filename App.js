@@ -1,5 +1,6 @@
 const express = require('express');
 const fileUpload = require('express-fileupload');
+const cors = require('cors')
 const ruDocuments = require('./routes').ru;
 
 const app = express();
@@ -10,6 +11,7 @@ app.listen(port, () => {
     console.log(`App listening on port ${port}`)
 })
 
+app.use(cors());
 app.use(fileUpload());
 
 /** Роутер распознания российских документов. */
