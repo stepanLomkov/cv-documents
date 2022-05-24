@@ -19,8 +19,8 @@ const readImg = async function(save){
 
     let info = req.data;
 
-    // проверка на достоверность ответа (уверенность >= 50%)
-    if (info.confidence < 50) {
+    // проверка на достоверность ответа (уверенность >= 55%)
+    if (info.confidence < 55) {
         return 'notPSD';
     }
 

@@ -23,7 +23,7 @@ function getImgConfig(imgPath) {
         // параметры сглаживания
         arcLength: 0.05,
         //демо режим (с сохранением промежуточных фото)
-        demo: false,
+        demo: true,
     }
 };
 
